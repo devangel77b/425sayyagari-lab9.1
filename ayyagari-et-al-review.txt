@@ -1,0 +1,30 @@
+This is a review of the manuscript by Ayyagiri et al, "Mapping electric potential and electric field lab". I recommend acceptance with major revisions. The manuscript deals with equipotential curves and visualization of the equipotentials nad electric fields in a small tub of a saline solution. While the measurements are well executed and the data visualization is good, the ms makes no attempt to relate the techniques or findings to an actual application or research question / testable hypotheses.
+
+Title: The title looks like a high school lab report rather than an informative title that helps potential readers understand what the paper is going to be about.
+
+Abstract: Similarly, while the abstract covers what was done, it doesn't really address why someone should read the rest of the ms. It might help if the authors could identify an application, a device, a particular use of the techniques they illustrated, or a set of testable hypotheses they are out to test.
+
+It is normal in IEEE journals to add keywords after the abstract. The authors should suggest some.
+
+Introduction: the introduction is clean except for some formatting. The coordinates x and y should be denoted in lower case math text (e.g. $x$, $y$). The authors write out x and y components of the electric field when it might be quicker to just write it as the gradient, but this is their call.
+
+The main thing missing from the introduction is the research question, hypotheses, or the application this work is intended to support - how would this work or this technique be used to realize or inform the design of a practical device?
+
+Methods: the MS alternates between giving trivial details (graphing paper, 4 leads) versus not giving enough detail (what power supply? what meter?). How big were the hex nuts, what metal were they (if this matters?) There are some strange capitalization bits. There are also parts where the explanation includes trivial details or goes in a cookbook fashion; the methods need to include details that a competent engineer could replicate the work but they ought to also be compact and to the point. Contorted syntax "the power supply was set to the aforementioned position..." is not needed here.
+
+When citing computer routines, methods, and code fragments, it is normal to \texttt{function_name()} so that it appears in a typewriter font.
+
+quiver() is a plotting routing for drawing arrows but it does not compute the gradient calcuation in eq (1). The authors do not explain how they computed the thing that is their only numbered equation.
+
+The ms does not state if the code and raw data are available anywhere. Normal practice nowadays is to ahve them available in a repository of some sort. 
+
+Results: The results figure showing equipotential and field is clear but the axes are unlabeled and do not include units. This needs to be fixed. The nut positions should also be shown. Is it possible to compare the plot to a plot of the predicted field and equipotentials? The results figure should be referred to by number in the text, e.g. "Fig (2) shows...."
+
+Parts of the results are mixed with bits that ought to be in the Discussion. For Results keep only those things that are factual, uninterpreted presentations of the stuff you measured. Analysis of the meaning and significance of these should be in the Discussion.
+
+Discussion: For this ms part of the discussion should be whether the results follow as expected. The discussion as written does not say what the findings mean for device design, theory, or measurement techniques that could be used on other projects.
+
+Similarly the conclusion talks about small method details but does not answer the big picture "So what? What do I do with this information?"
+
+Individual contributions should be listed as complete sentences in a paragraph rather than bullets.
+
